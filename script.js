@@ -38,3 +38,4 @@ const observer = new IntersectionObserver(entries => {
   });
 }, { rootMargin: '-15% 0px -65% 0px', threshold: 0 });
 sections.forEach(section => observer.observe(section));
+observer.observe(document.querySelector('#acasa'));
